@@ -13,6 +13,7 @@ import com.makotojava.learn.odot.exception.ServiceException;
 import com.makotojava.learn.odot.model.Category;
 import com.makotojava.learn.springboot.SpringBootDemoController;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/CategoryRestService")
 public class CategoryRestService extends SpringBootDemoController {
