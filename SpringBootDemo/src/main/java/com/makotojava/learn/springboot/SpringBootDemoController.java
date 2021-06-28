@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.makotojava.learn.odot.service.CategoryService;
 import com.makotojava.learn.odot.service.ItemService;
 
+@CrossOrigin(origins = "*")
 @RestController
 public class SpringBootDemoController {
 
